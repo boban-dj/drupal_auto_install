@@ -116,7 +116,8 @@ drush vset -y site_slogan $siteSlogan;
 
 
 # set files permissions sites/default/files
-sudo chmod 777 /var/www/$rootDir/sites/default/files
+# change your server root directory accordingly
+sudo chmod 777 /srv/srv/$rootDir/sites/default/files
 echo -e "permissions set to chmod 777 for sites/default/files"
 
 #todo
